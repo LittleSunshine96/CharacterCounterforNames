@@ -1,7 +1,9 @@
 <!--Headings-->
 # Character Counter for Names 
 ## This is a Character Counter made in LC-3 for CIS 11 final project
-### contributors: Felipe L. Ciara J. Mathew B.
+### Contributors: Felipe L. Ciara J. Mathew B.
+#### VERSION 1.0
+##### Date Modified: 06/01/2023
 <!--Intro Paragraph-->
 This project is a program created in LC-3 that asks the user to input a full name of which the program then asks the user to select a character and then the program shows the letter's frequency number. **The program is case sensitive**.
 <!--Links to simulator-->
