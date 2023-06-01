@@ -1,61 +1,21 @@
-# CharacterCounterforNames
-Full Name chosen letter counter
+<!--Headings-->
+# Character Counter for Names 
+## This is a Character Counter made in LC-3 for CIS 11 final project
+### contributors: Felipe L. Ciara J. Mathew B.
+<!--Intro Paragraph-->
+This project is a program created in LC-3 that asks the user to input a full name of which the program then asks the user to select a character and then the program shows the letter's frequency number. **The program is case sensitive**.
+<!--Links to simulator-->
+[LC-3](https://en.wikipedia.org/wiki/Little_Computer_3) On this link is more information about LC-3
 
-**LC-3 SIMULATOR**
-=========================================
+[LC-3 application download](https://highered.mheducation.com/sites/0072467509/student_view0/lc-3_simulator.html)
 
--------------------------------------------
-**TEAM NAME: [TEAM-A]**
-----------------------------------------------------------
-**MATHEW B., CIARA J., FELIPE L.**
-------------------------------------------------------------------
-The goal of this LC-3 program is to display the frequency of characters 
-of the user's full name after user inputs a given letter. As prompted the 
-user should be able to input full name and chose a letter to count. When
-input the program will output the numerical value that will represent the 
-letter.
--------------------------------------------------------------------------------
-*Use the link below to access and download LC-3 Editor and Simulator*
-**-Open LC-3** (https://highered.mheducation.com/sites/0072467509/student_view0/lc-3_simulator.html)
---https://1drv.ms/u/s!AmouINsS2XddgUlP3Twv-MkW0Pkz?e=Cgy2zp
+Instructions for Users
+1. Click on download link for Windows users, there is a linux version as well but this program was tested on the Windows 10 version.
+   
+2. Unzip the program through [Winzip](https://www.winzip.com/en/) or [Winrar](https://www.win-rar.com/start.html?&L=0) either one is fine. Your download file should have either .zip or .rar depending on the extractor program chosen.
+3. Place the application folder anywhere on your computer preferably in your Desktop  but it can be placed in program files.
+4. You should have both the LC3Edit Executable and Simulator Executable shown as .exe.
+5. You should write or load the program .asm file to LC3Edit  and click assemble once it shows no errors on both passes you can continue to the simulator.
+6. Click on the simulator and load the .obj file on the program this was created once you asembled the .asm and should have the same name with the .obj extension.
+7.  Click run and a console with the program should appear,  after that the user can input his name and see the results of the program.
 
-#_**Character counter for names**_ 
-##_**Input full name case sensitive**_
-###_**Input chosen letter**_ 
-####_**Frequency of letter chosen**_
----------------------------------------------------------------------------------
-; get_full_name - TAKES INPUT (FULL NAME) FROM USER AND STORES IN ARRAY
-;
-; PARAMETER (R1): THE ADDRESS OF THE ARRAY THE INPUT IS STORED
-; PARAMETER (R2): SENTINEL KEY
-;
-; RETURNS: N/A
----------------------------------------------------------------------------------
-
-
-
----------------------------------------------------------------------------------
-; count_frequency - COUNTS FREQUENCY OF GIVEN LETTER IN GIVEN STRING
-;
-; PARAMETER (R1): THE ADDRESS OF THE ARRAY THE INPUT IS STORED
-; PARAMETER (R4): GIVEN LETTER
-;
-; RETURNS: (R2): THE FREQUENCY OF GIVEN LETTER IN GIVEN STRING
----------------------------------------------------------------------------------
-
-
- 
-------------------------------------------------------------------------------------
-;
-;       PROGRAM DATA
-;stack_addr              .FILL       xFE00
-;full_name               .FILL       x4000
-;
-;inputNameMsg            .STRINGZ    "Input your full name (case sensitive): "
-;inputLetterMsg          .STRINGZ    "Input a letter: "
-;resultMsg               .STRINGZ    "Frequency of given letter: "
-;
-;sentinel                .FILL       #-10
-;newline                 .FILL       x0A
-;zero                    .FILL       x30
-----------------------------------------------------------------------------------
