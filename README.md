@@ -21,3 +21,7 @@ Instructions for Users
 6. Click on the simulator and load the .obj file on the program this was created once you asembled the .asm and should have the same name with the .obj extension.
 7.  Click run and a console with the program should appear,  after that the user can input his name and see the results of the program.
 
+![What's inside LC-3](https://github.com/FelipeLeonM1998/Test/assets/134893345/5792642b-bd69-4bed-85d6-aff0887a79d6)
+
+
+![Program Runs example](https://github.com/FelipeLeonM1998/Test/assets/134893345/5a47dedf-6e6b-4ae6-b2be-c871b2042c59)
